@@ -6,7 +6,12 @@ import FooterComponant from './FooterComponant';
 
 
 class App extends Component {
-
+constructor(props){
+  super(props)
+  this.state={
+    text:"Sample Text from AppComponant"
+  }
+}
 
 
 
@@ -19,7 +24,7 @@ class App extends Component {
         </Helmet>
        
         <HeaderComponant />
-          <MainComponant />
+          <MainComponant text={this.state.text} />
           <FooterComponant />
 
           <h1>Home</h1>

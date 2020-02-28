@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class MainComponant extends Component {
   
   render() {
-    return <div>MainComponant</div>;
+    return <div>
+      {this.props.text}
+    </div>;
   }
 }
 
