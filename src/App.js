@@ -9,7 +9,7 @@ class App extends Component {
 constructor(props){
   super(props)
   this.state={
-    text:"Sample Text from AppComponant"
+    text:"Sample Text from AppComponant VS Code"
   }
 }
 
