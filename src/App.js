@@ -3,6 +3,8 @@ import {Helmet} from 'react-helmet';
 import HeaderComponant from './HeaderComponant';
 import MainComponant from './MainComponant';
 import FooterComponant from './FooterComponant';
+import Text from './Text';
+
 
 
 class App extends Component {
@@ -26,6 +28,7 @@ constructor(props){
         <HeaderComponant />
           <MainComponant text={this.state.text} />
           <FooterComponant />
+          <Text />
 
           <h1>Home</h1>
       </div>

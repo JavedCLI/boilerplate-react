@@ -22,11 +22,7 @@ class RouterComponant extends Component {
         <NavLink className="nav-link" to="/one">One</NavLink>
         <NavLink className="nav-link " to="/two">Two</NavLink>
         <NavLink className="nav-link" to="/three">Three</NavLink>
-      </nav>
-     
-    
-         
-        
+      </nav>      
       
       <Switch>
         <Route exact path="/" component={App} />
