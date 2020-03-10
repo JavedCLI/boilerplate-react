@@ -18,19 +18,20 @@ const Text = () => {
  )
 
 
- 
  const deleteArray = (id) =>{
-    const filteredArray = values.filter((item)=>{
-      if(item.id === id){
-        return false
-      }else{
-        return true
-      }
-    })
+const filteredArray = values.filter((item)=>{
+if (item.id === id){
+  return false
+}else{
+  return true
+}
 
-  setValues(filteredArray);
-    
+})
+
+setValues(filteredArray)
+
  }
+
 const limited = values.slice(0,limit);
 
 const addMore =()=>{
